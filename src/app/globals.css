@@ -105,3 +105,8 @@ a {
     color-scheme: dark;
   }
 }
+
+:where(.css-dev-only-do-not-override-1km3mtt).ant-btn-default{
+  background-color: #d9d9d9 !important;
+  border: none !important;
+}

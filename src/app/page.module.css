@@ -1,11 +1,80 @@
 .main {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  /* align-items: left; */
+  /* padding: 2rem; */
   min-height: 100vh;
+  /* background-color: rgb(220, 218, 218); */
 }
+
+.NavbarLogo{
+  width: 120px;
+  height: 60px;
+}
+
+.Navbar{
+  background-color: white;
+  padding: 5px;
+  text-align: center;
+}
+
+.NavbarText{
+  padding-top: 1.2rem;
+  font-weight: bold;
+  color: rgb(195, 191, 191);
+  cursor: pointer;
+  font-size: medium;
+}
+
+.NavbarText:hover{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
+}
+
+.NavbarButton{
+  margin-top: 0.5rem !important;
+  /* padding: 1rem 1rem 1rem 1rem; */
+  /* margin-left: 2rem; */
+  background: linear-gradient(to right, rgb(255, 191, 0) , rgb(241,127,22)) ;
+  color: white;
+  text-decoration: none;
+  font-size: medium;
+}
+
+.NavbarButton:hover{
+  color: white !important;
+  border:none !important;
+  opacity: 0.7 ;
+  transform: scale(0.8);
+}
+
+.Header{
+  background-color: rgb(55, 55, 55);
+  padding: 15px;
+  text-align: center;
+}
+
+.HeaderText{
+  /* padding-top: 1.2rem; */
+  font-weight: bold;
+  color: rgb(195, 191, 191);
+  cursor: pointer;
+  font-size: medium;
+  text-transform: uppercase;
+}
+
+.a{
+  color: rgb(195, 191, 191) !important;
+}
+
+.a:hover{
+  color: black !important;
+}
+
+
+/* --------------------------------------------------------------------------------------------------------- */
 
 .description {
   display: inherit;
